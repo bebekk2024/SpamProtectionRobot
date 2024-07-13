@@ -58,7 +58,7 @@ async def help_command(_, message: Message):
     )
     mention = message.from_user.mention
     await message.reply_photo(
-        "https://t.me/Disney_storeDan",
+        "https://telegra.ph//file/d9346f35253b602c6023a.jpg",
         caption=f"Hi {mention}, I'm SpamProtectionRobot,"
         + " Choose An Option From Below.",
         reply_markup=kb,
